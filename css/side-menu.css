@@ -48,6 +48,10 @@ The content `<div>` is where all your content goes.
     text-align: justify;
 }
 
+.content i {
+    color: darkgreen;
+}
+
 .header {
      font-family: "Roboto Mono", "Roboto", sans-serif;
      margin: 0;
