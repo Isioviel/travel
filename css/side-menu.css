@@ -1,7 +1,6 @@
 body {
     color: rgb(119,119,119);
     font-size: 14pt;
-
 }
 
 .pure-img-responsive {
@@ -51,6 +50,10 @@ The content `<div>` is where all your content goes.
 
 .content i {
     color: darkgreen;
+}
+
+.content li {
+    margin-bottom: 6px;
 }
 
 .header {
