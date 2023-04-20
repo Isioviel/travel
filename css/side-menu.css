@@ -8,6 +8,12 @@ body {
     height: auto;
 }
 
+.pure-img-responsive-border {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid lightgrey;
+}
+
 /*
 Add transition to containers so they can push in and out.
 */

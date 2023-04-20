@@ -481,6 +481,7 @@ th {
     max-width: 100%;
     height: auto;
     display: block;
+    border: 5px solid #555;
 }
 
 /*csslint regex-selectors:false, known-properties:false, duplicate-properties:false*/
