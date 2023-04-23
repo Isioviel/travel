@@ -1651,6 +1651,24 @@ The content `<div>` is where all your content goes.
   background: rgba(255, 165, 0, 0.15);
 }
 
+td:first-child {
+    text-align: center;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
+td:nth-child(3) {
+    text-align: right;
+    font-weight: bold;
+}
+
+td:nth-child(4) {
+    text-align: left;
+    font-weight: bold;
+}
+
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
