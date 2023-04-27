@@ -37,7 +37,8 @@
                 <h2 class="content-subhead bg-yellow">Practice #1: Javascript + CSV</h2>
                 <script type="text/javascript">
                   function Upload() {
-                      var fileUpload = document.getElementById("fileUpload");
+                      /*var fileUpload = document.getElementById("fileUpload");*/
+                      var fileUpload = "stats.csv";
                       var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
                       if (regex.test(fileUpload.value.toLowerCase())) {
                           if (typeof (FileReader) != "undefined") {
@@ -68,9 +69,7 @@
                       }
                   }
               </script>
-              <input type="file" id="fileUpload" />
-              <input type="button" id="upload" value="Upload" onclick="Upload()" />
-              <hr />
+              
               <div id="dvCSV">
               </div>
 
