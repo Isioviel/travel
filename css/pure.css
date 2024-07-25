@@ -183,6 +183,10 @@ small {
     list-style-type: "\1F6A5  ";
 }
 
+.stamped {
+    list-style-type: "\2B50  ";
+}
+
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
